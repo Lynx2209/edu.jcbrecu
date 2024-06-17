@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tablas{
+    border: 2px solid black;
+}
+.encabezado{
+    color:rgb(0, 0, 255);
+    text-decoration: line-through;
+}
+.tablas, td, tr, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+.piePagina{
+    background-color: black;
+    padding: 40px;
+    margin-top: 500px;
+    color: white;
+    justify-content: center;
+}
